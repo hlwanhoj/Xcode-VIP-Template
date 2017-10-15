@@ -5,7 +5,7 @@ import UIKit
 /**
 	Accepts view models and renders them on display
 */
-protocol ___VARIABLE_productName___Displaying {
+protocol ___VARIABLE_productName___Displaying: class {
 	/// Module that display the data
 	var interactor: ___VARIABLE_productName___Interacting? { get set }
 }
